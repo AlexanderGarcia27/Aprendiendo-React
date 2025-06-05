@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>Hola UTSH</h1>
+      <h1>Hola soy UTSH</h1>
     </>
   )
 }
