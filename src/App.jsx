@@ -1,6 +1,8 @@
 import ButtonComponent from "./components/ButtonComponent"
 import ComponentNew from "./components/ComponentNew"
 import Ejercicio01 from "./components/ejercicio01"
+import { Ejercicio02 } from "./components/Ejercicio02"
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Ejercicio01 />
         <ButtonComponent/>
         <ComponentNew/>
+        <Ejercicio02/>
       </div>
     </>
 
