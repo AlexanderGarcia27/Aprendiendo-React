@@ -12,6 +12,9 @@ const Ejercicio04 = () => {
     const despedir = ()=>{
         setTexto('Adios Alexander')
     }
+    const reiniciar = ()=>{
+        setTexto('Bienvenido a UTSH')
+    }
     return (
         <>
             <div className="row mt-4">
@@ -24,6 +27,9 @@ const Ejercicio04 = () => {
                     <div className="col-12 mb-5 gap-5">
                         <button className="btn btn-success fw-bold" onClick={saludar}>
                             Saludar
+                        </button>
+                        <button className="btn btn-success fw-bold ms-4" onClick={reiniciar}>
+                            Reiniciar
                         </button>
                         <button className="btn btn-success fw-bold ms-4" onClick={despedir}>
                             Despedir
